@@ -1,4 +1,7 @@
 package io.github.ygormacedo.arquiteturasrping.montadora;
 
-public record CarroStatus() {
+public record CarroStatus(String mensagem) {
+
+
+
 }
