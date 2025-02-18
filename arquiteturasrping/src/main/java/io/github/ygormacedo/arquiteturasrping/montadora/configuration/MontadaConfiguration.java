@@ -4,12 +4,16 @@ import io.github.ygormacedo.arquiteturasrping.montadora.Motor;
 import io.github.ygormacedo.arquiteturasrping.montadora.TipoMotor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
+
+import javax.naming.Name;
 
 @Configuration
 public class MontadaConfiguration {
 
-    @Bean
-    public Motor motor(){
+    @Bean(name = "motorAspirado")
+    @Primary
+    public Motor motorAspirado(){
         var motor = new Motor();
         motor.setCavalos(120);
         motor.setCilindros(4);
@@ -20,7 +24,7 @@ public class MontadaConfiguration {
 
     }
 
-    @Bean
+    @Bean(name = "motorEletrico")
     public Motor motorEletrico(){
         var motor = new Motor();
         motor.setCavalos(110);
@@ -31,7 +35,7 @@ public class MontadaConfiguration {
         return motor;
 
     }
-    @Bean
+    @Bean(name = "motorTurbo")
     public Motor motorTurbo(){
         var motor = new Motor();
         motor.setCavalos(240);
