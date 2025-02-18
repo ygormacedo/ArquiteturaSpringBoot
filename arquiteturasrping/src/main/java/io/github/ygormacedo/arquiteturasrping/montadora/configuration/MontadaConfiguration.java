@@ -29,6 +29,7 @@ public class MontadaConfiguration {
         motor.setLitragem(1.8);
         motor.setTipo(TipoMotor.ELETRICO);
         return motor;
+
     }
     @Bean
     public Motor motorTurbo(){
