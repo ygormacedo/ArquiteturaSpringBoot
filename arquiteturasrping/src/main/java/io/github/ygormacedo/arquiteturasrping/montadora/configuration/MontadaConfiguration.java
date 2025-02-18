@@ -11,7 +11,7 @@ import javax.naming.Name;
 @Configuration
 public class MontadaConfiguration {
 
-    @Bean(name = "motoAspirado")
+    @Bean(name = "motorAspirado")
     @Primary
     public Motor motorAspirado(){
         var motor = new Motor();
