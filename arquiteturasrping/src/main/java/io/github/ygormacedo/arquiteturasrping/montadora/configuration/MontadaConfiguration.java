@@ -19,4 +19,25 @@ public class MontadaConfiguration {
         return motor;
     }
 
+    @Bean
+    public Motor motorEletrico(){
+        var motor = new Motor();
+        motor.setCavalos(110);
+        motor.setCilindros(3);
+        motor.setModelo("BYD SONG PRO PLUS ");
+        motor.setLitragem(1.8);
+        motor.setTipo(TipoMotor.ELETRICO);
+        return motor;
+    }
+    @Bean
+    public Motor motorTurbo(){
+        var motor = new Motor();
+        motor.setCavalos(240);
+        motor.setCilindros(6);
+        motor.setModelo("BRAYAN ");
+        motor.setLitragem(2.5);
+        motor.setTipo(TipoMotor.TURBO);
+        return motor;
+    }
+
 }
