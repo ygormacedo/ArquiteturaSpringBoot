@@ -17,6 +17,7 @@ public class MontadaConfiguration {
         motor.setLitragem(2.0);
         motor.setTipo(TipoMotor.ASPIRADO);
         return motor;
+
     }
 
     @Bean
