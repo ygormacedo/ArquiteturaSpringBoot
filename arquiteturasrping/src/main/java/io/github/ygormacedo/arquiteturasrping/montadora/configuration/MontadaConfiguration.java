@@ -18,6 +18,7 @@ public class MontadaConfiguration {
         motor.setTipo(TipoMotor.ASPIRADO);
         return motor;
 
+
     }
 
     @Bean
