@@ -21,6 +21,8 @@ public class Application {
 
 		builder.profiles("producao");
 
+	//	builder.lazyInitialization(false);
+
 		builder.run(args);
 
 		//contexto da aplicacao ja iniciada::
