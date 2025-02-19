@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Arquitetura Spring
+  jpa:
+    show-sql: true
+  main:
+    lazy-initialization: false
+
+app:
+  config:
+    variavel: variavel de cu eh rola em X
+    valor3: 150
+    falador: fala pra kct
