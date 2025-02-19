@@ -7,9 +7,10 @@
 ![{A03A963D-BF6F-4DCD-8D2A-A8CBE4F53857}](https://github.com/user-attachments/assets/caa2f4a0-9a9d-428e-b51a-be72f1e3bf75)
 
 
-  <h2>Postman</h2>
+  <h2>Postman TO-DO</h2>
 
-![{1375F5C3-1ABF-42D3-9D52-F203B0AE8179}](https://github.com/user-attachments/assets/85486d25-356f-4c81-85ec-63522e8708b2)
+![{09720C00-DE11-4A9B-B2C3-C6E24ED721AB}](https://github.com/user-attachments/assets/27d8f250-f271-4de3-bad5-2ded92a51571)
+
 
 <h3>Sessao 3 do urso JAVA com Spring Booy em guia ompleto e atualizado, stack completa do zero ao deploy na AWS</h3>
 
