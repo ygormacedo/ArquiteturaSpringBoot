@@ -1,6 +1,6 @@
 
   Criação de um API do zero.
-  Ferramentas utilizadas, Intellij como editor de codigo e postman para aessar a url http://localhost:8080/carros para receber o dados.
+  Ferramentas utilizadas, Intellij como editor de codigo e postman para aessar a url http://localhost:8080/todo para receber o dados.
 
    <h1> Configuração do SDK no Intellij  </h1>
 
