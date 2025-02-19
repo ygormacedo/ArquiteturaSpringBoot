@@ -1,7 +1,6 @@
 package io.github.ygormacedo.arquiteturasrping;
 
 import org.springframework.boot.Banner;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -33,6 +32,15 @@ public class Application {
 		ConfigurableEnvironment environment = appliationContext.getEnvironment();
 		String applicationName = environment.getProperty("spring.application.name");
 		System.out.println("nome da aplicao" + applicationName);
+
+
+		ExemploValue value = appliationContext.getBean(ExemploValue.class);
+		value.imprimirVariavel();
+
+		AppProperties properties = appliationContext.getBean(AppProperties.class);
+		System.out.println(properties.getFalador());
+		System.out.println(properties.getValor3());
+
 
 		// builder.profiles("producao"); // para subir pra producao
 

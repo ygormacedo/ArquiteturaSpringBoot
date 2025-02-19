@@ -5,6 +5,7 @@ import io.github.ygormacedo.arquiteturasrping.montadora.TipoMotor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Scope;
 
 import javax.naming.Name;
 
@@ -12,7 +13,7 @@ import javax.naming.Name;
 public class MontadaConfiguration {
 
     @Bean(name = "motorAspirado")
-    @Primary
+    @Scope("singleton")
     public Motor motorAspirado(){
         var motor = new Motor();
         motor.setCavalos(120);

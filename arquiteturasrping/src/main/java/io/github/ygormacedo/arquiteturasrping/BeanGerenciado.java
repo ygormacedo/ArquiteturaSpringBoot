@@ -24,6 +24,9 @@ public class BeanGerenciado {
     private TodoValidator validator;
 
     @Autowired
+    private AppProperties properties;
+
+    @Autowired
     public BeanGerenciado(TodoValidator validator) {
         this.validator = validator;
     }
@@ -31,6 +34,8 @@ public class BeanGerenciado {
     public void utilizar(){
         var todo = new TodoEntity();
         validator.validar(todo);
+        String falador = properties.getFalador();
+        Integer valor3 = properties.getValor3();
     }
 
     @Autowired
