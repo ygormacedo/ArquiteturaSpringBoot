@@ -2,6 +2,7 @@ package io.github.ygormacedo.arquiteturasrping.todos;
 
 
 import jakarta.persistence.criteria.CriteriaBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -14,7 +15,7 @@ public class TodoService {
     private MailSender mailSender;
 
 
-
+    @Autowired
     public TodoService(TodoRepository todoRepository, TodoValidator validator, MailSender mailSender){
         this.repository = todoRepository;
         this.validator = validator;
