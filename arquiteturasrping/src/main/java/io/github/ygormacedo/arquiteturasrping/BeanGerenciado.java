@@ -36,6 +36,7 @@ public class BeanGerenciado {
         validator.validar(todo);
         String falador = properties.getFalador();
         Integer valor3 = properties.getValor3();
+
     }
 
     @Autowired
