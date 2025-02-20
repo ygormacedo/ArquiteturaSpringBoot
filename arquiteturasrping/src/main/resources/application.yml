@@ -8,6 +8,6 @@ spring:
 
 app:
   config:
-    variavel: variavel de cu eh rola em X
+    variavel: Testando mensagem de string
     valor3: 150
-    falador: fala pra kct
+    falador: se comunica bem
